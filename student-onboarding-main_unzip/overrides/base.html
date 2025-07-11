@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+<!-- This is where the css file is included-->
+{% block extrahead %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ base_url }}/css/style.css">
+{% endblock %}
+
+{% block header %}
+  {{ super() }}
+  <!-- Add a banner, logo, or message ABOVE the normal Material header -->
+  <div style="background: #ffeb3b; padding: 10px; text-align: center;">
+    🚧 This site is under construction by interns! 🚧
+  </div>
+{% endblock %}
+
+

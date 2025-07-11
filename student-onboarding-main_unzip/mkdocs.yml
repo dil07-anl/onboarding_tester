@@ -1,0 +1,102 @@
+site_name: ALCF Student Onboarding
+repo_name: 'argonne-lcf/student-onboarding'
+repo_url: 'https://github.com/argonne-lcf/student-onboarding'
+
+theme:
+  name: 'material'
+  custom_dir: overrides
+  language: 'en'
+  favicon: docs/images/favicon.svg
+
+# test from branch -z
+
+  plugins:
+    - search
+
+  extra:
+    social:
+    
+      - icon: https://fontawesome.com/icons/envelope?f=classic&s=solid
+        link: /faq-guidance/faq/
+
+      - icon: https://fontawesome.com/icons/linkedin-in?f=classic&s=brands
+        link: https://www.linkedin.com/company/argonne-leadership-computing-facility/
+
+      - icon: https://fontawesome.com/icons/instagram?f=classic&s=brands
+        link: https://www.instagram.com/argonne.lcf/
+
+      - icon: https://fontawesome.com/icons/facebook-f?f=classic&s=brands
+        link: https://www.facebook.com/argonne.lcf/
+
+      - icon: https://fontawesome.com/icons/flickr?f=classic&s=brands
+        link: https://www.flickr.com/people/argonne/
+
+      - icon: https://fontawesome.com/icons/youtube?f=classic&s=brands
+        link: https://www.youtube.com/@argonneleadershipcomputing8396
+
+      - icon: https://fontawesome.com/icons/x-twitter?f=classic&s=brands
+        link: https://x.com/argonne_lcf?lang=en
+
+
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: alcf
+      primary: custom
+      accent: custom
+      toggle:
+        # icon: material/brightness-7
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+      
+      # Test
+
+nav:
+  - Home: 
+    - index.md
+
+  - Pre-hire Tasks: 
+    - tasks/index.md
+    - Tech Setup: tasks/tech-setup.md
+    - Forms: tasks/forms.md
+
+  - Orientation: 
+    - orientation/index.md
+    - New-Hire Orientation: orientation/new-hire-orientation.md
+    - Arriving at Argonne: orientation/arriving.md
+    - Training: orientation/training.md
+  
+  - Websites & Tools:
+    - websites-tools/index.md
+  
+  - Housing & Travel:
+    - housing-travel/index.md
+    - Living Accomodations: housing-travel/accommodations.md
+    - Travel: housing-travel/travel.md
+
+  - Campus Life:
+    - campus-life/index.md
+    - Learning Opportunities: campus-life/learning.md
+    - Clubs & Activities: campus-life/activities.md
+    - Dining: campus-life/dining.md
+
+  - FAQ & Guidance:
+    - faq-guidance/index.md
+    - FAQ: faq-guidance/faq.md
+    - Guidance: faq-guidance/guidance.md
