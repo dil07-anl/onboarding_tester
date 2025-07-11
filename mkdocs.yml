@@ -77,31 +77,31 @@ nav:
   - Home: index.md
 
   - Pre-hire Tasks: 
-    - Overview: pre-hire-tasks/index.md
+    - pre-hire-tasks/index.md
     - Tech Setup: pre-hire-tasks/tech-setup.md
     - Forms: pre-hire-tasks/forms.md
 
   - Orientation: 
-    - Overview: orientation/index.md
+    - orientation/index.md
     - New-Hire Orientation: orientation/new-hire-orientation.md
     - Arriving at Argonne: orientation/arriving.md
     - Training: orientation/training.md
   
   - Websites & Tools:
-    - Overview: websites-tools/index.md
+    - websites-tools/index.md
   
   - Housing & Travel:
-    - Overview: housing-travel/index.md
+    - housing-travel/index.md
     - Living Accommodations: housing-travel/accommodations.md
     - Travel: housing-travel/travel.md
 
   - Campus Life:
-    - Overview: campus-life/index.md
+    - campus-life/index.md
     - Learning Opportunities: campus-life/learning.md
     - Clubs & Activities: campus-life/activities.md
     - Dining: campus-life/dining.md
 
   - FAQ & Guidance:
-    - Overview: faq-guidance/index.md
+    - faq-guidance/index.md
     - FAQ: faq-guidance/faq.md
     - Guidance: faq-guidance/guidance.md
