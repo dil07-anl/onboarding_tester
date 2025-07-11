@@ -17,7 +17,24 @@ p {
   font-weight: 400;
 }
 
+
 /* Top Bar */
+
+.md-header {
+  background-color: white;
+  color: black;
+  height: 80px; /* adjust as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* optional subtle shadow */
+}
+
+.md-header__button,
+.md-header__title,
+.md-header__topic,
+.md-tabs__link {
+  color: black !important;
+}
+
+
 .top-bar {
   display: flex;
   justify-content: flex-start;
