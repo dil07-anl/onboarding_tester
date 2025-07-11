@@ -7,6 +7,9 @@ theme:
   custom_dir: overrides
   language: 'en'
   favicon: docs/images/favicon.svg
+  features:
+    - navigation.footer
+  copyright: ""
 
 
   palette:

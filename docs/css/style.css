@@ -130,6 +130,28 @@ main {
 }
 
 /* Footer */
+
+.md-footer {
+  background-color: #1F2236 !important;
+  color: white !important;
+}
+
+.md-footer__inner {
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.md-footer .md-social__link {
+  color: white !important;
+}
+
+.md-footer .md-social__link:hover {
+  color: #cccccc !important;
+}
+
+
+
 footer {
   background: #232e5c;
   color: #fff;
