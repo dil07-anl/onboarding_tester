@@ -4,7 +4,7 @@ repo_url: 'https://github.com/argonne-lcf/student-onboarding'
 
 theme:
   name: 'material'
-  custom_dir: overrides
+  custom_dir: overrides/inject.html
   language: 'en'
   favicon: docs/images/favicon.svg
 
@@ -34,8 +34,6 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to system preference
-      
-
 
 plugins:
   - search
@@ -62,8 +60,6 @@ extra:
 
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/argonne_lcf?lang=en
-
-
 
 extra_css:
   - css/style.css
