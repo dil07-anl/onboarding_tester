@@ -4,6 +4,8 @@ repo_url: 'https://github.com/argonne-lcf/student-onboarding'
 
 theme:
   name: 'material'
+  feature: 
+  - navigation.indexes
   custom_dir: overrides
   language: 'en'
   favicon: docs/images/favicon.svg
