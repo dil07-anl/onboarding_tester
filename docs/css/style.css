@@ -75,7 +75,7 @@ p {
 .hero__bg {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: url('img/Argonne-Employees-Standing.jpg') center center/cover no-repeat;
+  background: url('docs/images/Argonne-Employees-Standing.jpg') center center/cover no-repeat;
   /* filter: brightness(0.7); */
   z-index: 1;
 }
@@ -100,7 +100,7 @@ p {
   font-weight: 500;
 }
 
-/* Tab Navigation */
+/* Tab Navigation 
 .tab-nav {
   display: flex;
   justify-content: center;
@@ -121,6 +121,7 @@ p {
   transition: background 0.2s, color 0.2s;
   text-transform: uppercase;
 }
+*/
 
 /* Main Content */
 main {
