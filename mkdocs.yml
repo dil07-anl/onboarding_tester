@@ -8,41 +8,8 @@ theme:
   language: 'en'
   favicon: docs/images/favicon.svg
 
-# test from branch -z
 
-plugins:
-  - search
-
-extra:
-    social:
-    
-      - icon: https://fontawesome.com/icons/envelope?f=classic&s=solid
-        link: /faq-guidance/faq/
-
-      - icon: https://fontawesome.com/icons/linkedin-in?f=classic&s=brands
-        link: https://www.linkedin.com/company/argonne-leadership-computing-facility/
-
-      - icon: https://fontawesome.com/icons/instagram?f=classic&s=brands
-        link: https://www.instagram.com/argonne.lcf/
-
-      - icon: https://fontawesome.com/icons/facebook-f?f=classic&s=brands
-        link: https://www.facebook.com/argonne.lcf/
-
-      - icon: https://fontawesome.com/icons/flickr?f=classic&s=brands
-        link: https://www.flickr.com/people/argonne/
-
-      - icon: https://fontawesome.com/icons/youtube?f=classic&s=brands
-        link: https://www.youtube.com/@argonneleadershipcomputing8396
-
-      - icon: https://fontawesome.com/icons/x-twitter?f=classic&s=brands
-        link: https://x.com/argonne_lcf?lang=en
-
-
-
-extra_css:
-    - css/style.css
-
-palette:
+  palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -68,6 +35,39 @@ palette:
         icon: material/weather-night
         name: Switch to system preference
       
+
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: /faq-guidance/faq/
+
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/company/argonne-leadership-computing-facility/
+
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/argonne.lcf/
+
+    - icon: fontawesome/brands/facebook-f
+      link: https://www.facebook.com/argonne.lcf/
+
+    - icon: fontawesome/brands/flickr
+      link: https://www.flickr.com/people/argonne/
+
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@argonneleadershipcomputing8396
+
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/argonne_lcf?lang=en
+
+
+
+extra_css:
+  - css/style.css
+
 markdown_extensions:
   - attr_list
   - md_in_html
