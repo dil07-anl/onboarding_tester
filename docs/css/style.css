@@ -100,7 +100,7 @@ p {
   font-weight: 500;
 }
 
-/* Tab Navigation */
+/* Tab Navigation 
 .tab-nav {
   display: flex;
   justify-content: center;
@@ -121,6 +121,7 @@ p {
   transition: background 0.2s, color 0.2s;
   text-transform: uppercase;
 }
+*/
 
 /* Main Content */
 main {

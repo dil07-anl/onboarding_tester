@@ -24,7 +24,8 @@
     </div>
   </section>
 
-  <!-- Tab Navigation -->
+  <!-- Horizontal Tab Navigation (not implementing for now)
+
   <nav class="tab-nav">
     <a href="#" class="tab">Pre-Hire Tasks</a>
     <a href="#" class="tab">Orientation</a>
@@ -33,6 +34,8 @@
     <a href="#" class="tab">Campus Life</a>
     <a href="#" class="tab">FAQ & Guidance</a>
   </nav>
+
+  -->
 
   <!-- Main Content Placeholder -->
   <main>
