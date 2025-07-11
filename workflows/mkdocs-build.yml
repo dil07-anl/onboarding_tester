@@ -1,22 +1,30 @@
-name: mkdocs-build
+name: Deploy MkDocs site to GitHub Pages
+
 on:
   push:
     branches:
       - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
-  docs-strict:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          submodules: recursive
-      - uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-      - name: Setup Python environment
-        run: pip install -r requirements.txt
-      - name: Build docs with --strict
-        run: make build-docs
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material
+
+      - name: Deploy to GitHub Pages
+        run: |
+          mkdocs gh-deploy --force
