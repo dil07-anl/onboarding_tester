@@ -129,7 +129,8 @@ nav:
     - Living Accommodations: housing-travel/accommodations.md
     - Travel: housing-travel/travel.md
 
-  - Campus Life: campus-life/index.md
+  - Campus Life: 
+    - campus-life/index.md
     - Learning Opportunities: campus-life/learning.md
     - Clubs & Activities: campus-life/activities.md
     - Dining: campus-life/dining.md
