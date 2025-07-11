@@ -4,7 +4,7 @@ repo_url: 'https://github.com/argonne-lcf/student-onboarding'
 
 theme:
   name: 'material'
-  custom_dir: overrides/inject.html
+  custom_dir: overrides
   language: 'en'
   favicon: docs/images/favicon.svg
 
