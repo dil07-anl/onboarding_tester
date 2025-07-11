@@ -10,10 +10,10 @@ theme:
 
 # test from branch -z
 
-  plugins:
-    - search
+plugins:
+  - search
 
-  extra:
+extra:
     social:
     
       - icon: https://fontawesome.com/icons/envelope?f=classic&s=solid
@@ -39,7 +39,10 @@ theme:
 
 
 
-  palette:
+extra_css:
+    - css/style.css
+
+palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -65,7 +68,9 @@ theme:
         icon: material/weather-night
         name: Switch to system preference
       
-      # Test
+markdown_extensions:
+  - attr_list
+  - md_in_html
 
 nav:
   - Home: 
