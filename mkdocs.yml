@@ -72,36 +72,36 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+
 nav:
-  - Home: 
-    - index.md
+  - Home: index.md
 
   - Pre-hire Tasks: 
-    - tasks/index.md
-    - Tech Setup: tasks/tech-setup.md
-    - Forms: tasks/forms.md
+    - Overview: pre-hire-tasks/index.md
+    - Tech Setup: pre-hire-tasks/tech-setup.md
+    - Forms: pre-hire-tasks/forms.md
 
   - Orientation: 
-    - orientation/index.md
+    - Overview: orientation/index.md
     - New-Hire Orientation: orientation/new-hire-orientation.md
     - Arriving at Argonne: orientation/arriving.md
     - Training: orientation/training.md
   
   - Websites & Tools:
-    - websites-tools/index.md
+    - Overview: websites-tools/index.md
   
   - Housing & Travel:
-    - housing-travel/index.md
-    - Living Accomodations: housing-travel/accommodations.md
+    - Overview: housing-travel/index.md
+    - Living Accommodations: housing-travel/accommodations.md
     - Travel: housing-travel/travel.md
 
   - Campus Life:
-    - campus-life/index.md
+    - Overview: campus-life/index.md
     - Learning Opportunities: campus-life/learning.md
     - Clubs & Activities: campus-life/activities.md
     - Dining: campus-life/dining.md
 
   - FAQ & Guidance:
-    - faq-guidance/index.md
+    - Overview: faq-guidance/index.md
     - FAQ: faq-guidance/faq.md
     - Guidance: faq-guidance/guidance.md
