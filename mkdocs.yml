@@ -10,7 +10,7 @@ theme:
   language: 'en'
   favicon: docs/images/favicon.svg
 
-# test from branch -z
+# test comment
 
 plugins:
   - search
