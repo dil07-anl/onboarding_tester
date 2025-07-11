@@ -9,6 +9,9 @@ theme:
   custom_dir: overrides
   language: 'en'
   favicon: docs/images/favicon.svg
+  features:
+    - navigation.footer
+  copyright: ""
 
 plugins:
   - search
@@ -43,6 +46,8 @@ extra_css:
     - css/style.css
 
 palette:
+
+  palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -67,7 +72,36 @@ palette:
       toggle:
         icon: material/weather-night
         name: Switch to system preference
-      
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: /faq-guidance/faq/
+
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/company/argonne-leadership-computing-facility/
+
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/argonne.lcf/
+
+    - icon: fontawesome/brands/facebook-f
+      link: https://www.facebook.com/argonne.lcf/
+
+    - icon: fontawesome/brands/flickr
+      link: https://www.flickr.com/people/argonne/
+
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@argonneleadershipcomputing8396
+
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/argonne_lcf?lang=en
+
+extra_css:
+  - css/style.css
+
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -95,8 +129,7 @@ nav:
     - Living Accommodations: housing-travel/accommodations.md
     - Travel: housing-travel/travel.md
 
-  - Campus Life:
-    - campus-life/index.md
+  - Campus Life: campus-life/index.md
     - Learning Opportunities: campus-life/learning.md
     - Clubs & Activities: campus-life/activities.md
     - Dining: campus-life/dining.md
