@@ -1,5 +1,3 @@
-/* Test branch commit */
-
 
 /* Global Styles */
 body {
@@ -55,9 +53,11 @@ p {
   transition: color 0.2s;
   margin-right: 2em;
 }
+
 .top-bar a:last-child {
   margin-right: 0;
 }
+
 .top-bar a:hover {
   color: #0056b3;
 }
@@ -132,6 +132,7 @@ main {
 
 /* Footer */
 
+
 .md-footer {
   background-color: #1F2236 !important;
   color: white !important;
@@ -153,33 +154,73 @@ main {
 
 
 
+
 footer {
-  background: #232e5c;
+  background: #1F2236;
   color: #fff;
-  padding: 0;
+  padding: 2em 0; 
   margin-top: 2em;
 }
-.footer__main {
+
+.footer-grid {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
-  padding: 2em 2em 1em 2em;
+  align-items: center;
   gap: 2em;
+  padding: 2em;
 }
-.footer__logo {
+
+.footer-left {
   display: flex;
-  align-items: flex-start;
-  gap: 1em;
-  font-size: 1em;
-  color: #fff;
+  align-items: center;
+  gap: 1.5em;
 }
-.footer__logo img {
-  height: 48px;
+
+.footer-logo {
+  height: 90px;
 }
-.footer__copyright {
-  text-align: center;
-  color: #b0b8c1;
-  font-size: 0.95em;
-  padding: 1em 0 1.5em 0;
+
+.footer-address {
+  font-size: 1rem;
+  line-height: 1.5;
 }
+
+.footer-social .md-social {
+  display: flex;
+  gap: 1.2em;
+}
+
+.md-social__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.28);
+  transition: background-color 0.3s ease;
+}
+
+.md-social__link svg {
+  fill: white;
+  width: 24px;
+  height: 24px;
+}
+
+.md-social__link:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-right-logos {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+}
+
+.footer-sub-logo {
+  height: 50px;
+}
+

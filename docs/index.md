@@ -45,15 +45,7 @@
   </main>
 
   <!-- Footer -->
-  <footer>
-    <div class="footer__main">
-      <div class="footer__logo">
-        <span>Argonne National Laboratory<br>9700 S. Cass Avenue<br> Lemont, IL 60439<br>+1-630-252-2000</span>
-      </div>
-      <div class="footer__social"></div>
-      <div class="footer__logos"></div>
-    </div>
-  </footer>
+
 
 </body>
 </html>

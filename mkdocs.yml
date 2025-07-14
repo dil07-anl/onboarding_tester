@@ -8,6 +8,15 @@ theme:
   - navigation.indexes
   custom_dir: overrides
   language: 'en'
+
+  favicon: images/favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+    - header.autohide
   favicon: docs/images/favicon.svg
   features:
     - navigation.footer

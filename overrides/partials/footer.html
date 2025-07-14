@@ -1,0 +1,43 @@
+<footer style="background-color: #1F2236; color: white; padding: 2.5em 3em;">
+  <div class="footer-grid">
+
+    <!-- Left: Logo and Address -->
+    <div class="footer-left">
+      <img src="{{ config.site_url }}/images/favicon.svg" alt="Argonne Logo" class="footer-logo">
+      <div class="footer-address">
+        <strong>Argonne National Laboratory</strong><br>
+        9700 S. Cass Avenue<br>
+        Lemont, IL 60439<br>
+        +1-630-252-2000
+      </div>
+    </div>
+
+    <!-- Center: Social Icons -->
+    <div class="footer-social">
+    {% if config.extra.social %}
+        <div class="social-icons">
+        {% for social in config.extra.social %}
+            {% set title = social.name if social.name is defined else (
+                social.link.split('//')[1].split('/')[0]
+            ) %}
+            <a href="{{ social.link }}"
+            target="_blank"
+            rel="noopener"
+            title="{{ title }}"
+            class="social-link"
+            aria-label="{{ title }}">
+            {% include ".icons/" ~ social.icon ~ ".svg" %}
+            </a>
+        {% endfor %}
+        </div>
+    {% endif %}
+    </div>
+
+    <!-- Right: Logos -->
+    <div class="footer-right-logos">
+      <img src="{{ config.site_url }}/images/DOE_ko_300.png" alt="DOE Logo" class="footer-sub-logo">
+      <img src="{{ config.site_url }}/images/UCHI.png" alt="UChicago Logo" class="footer-sub-logo">
+    </div>
+
+  </div>
+</footer>
