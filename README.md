@@ -1,4 +1,2 @@
-# onboarding_tester
-
-
-This is the README file lolz
+# student-onboarding
+This website is to help students understand the process of getting hired at Argonne.

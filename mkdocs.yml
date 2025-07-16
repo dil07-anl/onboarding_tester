@@ -1,15 +1,10 @@
-site_name: ALCF Student Onboarding
-repo_name: 'argonne-lcf/student-onboarding'
-repo_url: 'https://github.com/argonne-lcf/student-onboarding'
+site_name: Argonne Onboarding Guide
+site_url: https://argonne-lcf.github.io/student-onboarding/
 
 theme:
   name: 'material'
-  features: 
-  - navigation.indexes
   custom_dir: overrides
   language: 'en'
-
-  favicon: images/favicon.svg
   features:
     - navigation.tabs
     - navigation.sections
@@ -17,70 +12,34 @@ theme:
     - search.highlight
     - search.suggest
     - header.autohide
-  favicon: docs/images/favicon.svg
+
   features:
     - navigation.footer
-  copyright: ""
-
-plugins:
-  - search
-
-extra:
-    social:
-    
-      - icon: https://fontawesome.com/icons/envelope?f=classic&s=solid
-        link: /faq-guidance/faq/
-
-      - icon: https://fontawesome.com/icons/linkedin-in?f=classic&s=brands
-        link: https://www.linkedin.com/company/argonne-leadership-computing-facility/
-
-      - icon: https://fontawesome.com/icons/instagram?f=classic&s=brands
-        link: https://www.instagram.com/argonne.lcf/
-
-      - icon: https://fontawesome.com/icons/facebook-f?f=classic&s=brands
-        link: https://www.facebook.com/argonne.lcf/
-
-      - icon: https://fontawesome.com/icons/flickr?f=classic&s=brands
-        link: https://www.flickr.com/people/argonne/
-
-      - icon: https://fontawesome.com/icons/youtube?f=classic&s=brands
-        link: https://www.youtube.com/@argonneleadershipcomputing8396
-
-      - icon: https://fontawesome.com/icons/x-twitter?f=classic&s=brands
-        link: https://x.com/argonne_lcf?lang=en
-
-
-
-extra_css:
-    - css/style.css
-
-palette:
-
+    - navigation.instant
+    - navigation.path
+    - navigation.tracking
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: alcf
-      primary: custom
-      accent: custom
-      toggle:
-        # icon: material/brightness-7
-        icon: material/weather-sunny
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-night
-        name: Switch to system preference
+  # Auto
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
+  # Light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: alcf
+    primary: custom
+    accent: custom
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
+  # Dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: custom
+    accent: custom
+    toggle:
+      icon: material/weather-night
+      name: Switch to system preference
 
 plugins:
   - search
@@ -108,6 +67,8 @@ extra:
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/argonne_lcf?lang=en
 
+  favicon: images/favicon.svg
+
 extra_css:
   - css/style.css
 
@@ -115,36 +76,30 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-
 nav:
   - Home: index.md
 
   - Pre-hire Tasks: 
-    - pre-hire-tasks/index.md
     - Tech Setup: pre-hire-tasks/tech-setup.md
     - Forms: pre-hire-tasks/forms.md
 
-  - Orientation: 
-    - orientation/index.md
+  - Orientation:
     - New-Hire Orientation: orientation/new-hire-orientation.md
     - Arriving at Argonne: orientation/arriving.md
     - Training: orientation/training.md
-  
-  - Websites & Tools:
-    - websites-tools/index.md
-  
-  - Housing & Travel:
-    - housing-travel/index.md
+
+  - Websites & Tools: websites-tools/index.md
+
+  - Housing & Travel: 
     - Living Accommodations: housing-travel/accommodations.md
     - Travel: housing-travel/travel.md
 
-  - Campus Life: 
-    - campus-life/index.md
+  - Campus Life:
     - Learning Opportunities: campus-life/learning.md
     - Clubs & Activities: campus-life/activities.md
     - Dining: campus-life/dining.md
 
-  - FAQ & Guidance:
-    - faq-guidance/index.md
+  - FAQ & Guidance: 
     - FAQ: faq-guidance/faq.md
     - Guidance: faq-guidance/guidance.md
+
